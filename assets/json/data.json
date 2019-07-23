@@ -1,0 +1,104 @@
+{
+  "data" :[
+    {
+      "image": {
+        "key": "building",
+        "filename": "building.png"
+      },
+      "audio": {
+        "key": "buildingAudio",
+        "filename": "edificio.mp3"
+      },
+      "spanish": "edificio"
+    },
+    {
+      "image": {
+        "key": "car",
+        "filename": "car.png"
+      },
+      "audio": {
+        "key": "carAudio",
+        "filename": "auto.mp3"
+      },
+      "spanish": "automóvil"
+    },
+    {
+      "image": {
+        "key": "house",
+        "filename": "house.png"
+      },
+      "audio": {
+        "key": "houseAudio",
+        "filename": "casa.mp3"
+      },
+      "spanish": "casa"
+    },
+    {
+      "image": {
+        "key": "tree",
+        "filename": "tree.png"
+      },
+      "audio": {
+        "key": "treeAudio",
+        "filename": "arbol.mp3"
+      },
+      "spanish": "arból"
+    },
+    {
+      "image": {
+        "key": "football",
+        "filename": "football.png"
+      },
+      "audio": {
+        "key": "footballAudio",
+        "filename": "futbol.mp3"
+      },
+      "spanish": "fútbol"
+    },
+    {
+      "image": {
+        "key": "apple",
+        "filename": "apple.png"
+      },
+      "audio": {
+        "key": "appleAudio",
+        "filename": "manzana.mp3"
+      },
+      "spanish": "manzana"
+    },
+    {
+      "image": {
+        "key": "girl",
+        "filename": "girl.png"
+      },
+      "audio": {
+        "key": "girlAudio",
+        "filename": "nina.mp3"
+      },
+      "spanish": "niña"
+    },
+    {
+      "image": {
+        "key": "bull",
+        "filename": "bull.png"
+      },
+      "audio": {
+        "key": "bullAudio",
+        "filename": "toro.mp3"
+      },
+      "spanish": "toro"
+    },
+    {
+      "image": {
+        "key": "stadium",
+        "filename": "stadium.png"
+      },
+      "audio": {
+        "key": "stadiumAudio",
+        "filename": "estadio.mp3"
+      },
+      "spanish": "estadio"
+    }
+  ],
+  "total": 9
+}
