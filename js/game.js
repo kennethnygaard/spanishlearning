@@ -14,7 +14,7 @@ gameScene.init = function(){
 
   this.words = getWords();
 
-  this.wordText = this.add.text(20, 30, ' ', {
+  this.wordText = this.add.text(45, 30, ' ', {
     font: '24px Open Sans',
     fill: '#ffffff'
   });
@@ -30,6 +30,8 @@ gameScene.init = function(){
 gameScene.preload = function(){
   bbgg = this.background = this.load.image('background', 'assets/images/background-city.png');
 
+  this.load.image('flag', 'assets/images/flag.png');
+  this.load.image('playaudio', 'assets/images/playaudio.png');
 
   //console.log(things);
   things.forEach(function(thing){
@@ -54,6 +56,19 @@ gameScene.create = function(){
 
 
   let bg = this.add.sprite(0, 0, 'background').setOrigin(0).setInteractive();
+  let flag = this.add.sprite(0, 0, 'flag').setOrigin(0).setInteractive();
+  let play = this.add.sprite(20, 34, 'playaudio').setOrigin(0).setInteractive();
+
+  flag.depth = 2;
+
+  flag.on('pointerdown', function(){
+    flag.destroy();
+  });
+
+  play.on('pointerdown', function(){
+    nextWord.audio.play();
+  })
+
   sound = [];
   sound['correct'] = this.sound.add('correct');
   sound['wrong'] = this.sound.add('wrong');
@@ -118,7 +133,6 @@ gameScene.create = function(){
         items[i].alphaTween.stop();
         items[i].alpha = 1;
       }, this);
-
   }
 
 
